@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:baselineAligned="false"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+    <TextView
+        android:id="@+id/device_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="address"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/point_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_toEndOf="@id/device_address"
+        android:text="pos"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/device_rssi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:gravity="end"
+        android:text="rssi"
+        android:textColor="@android:color/black"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/device_lastupdated"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/device_address"
+        android:layout_marginStart="20dp"
+        android:text="time"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/device_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/device_address"
+        android:layout_marginStart="20dp"
+        android:layout_toEndOf="@+id/device_lastupdated"
+        android:text="name"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/device_ibeacon_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/device_lastupdated"
+        android:layout_marginStart="20dp"
+        android:singleLine="false"
+        android:text="ibeacon"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/device_scanrecord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/device_ibeacon_info"
+        android:layout_marginStart="20dp"
+        android:singleLine="false"
+        android:text="raw"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="6dp" />
+</RelativeLayout>

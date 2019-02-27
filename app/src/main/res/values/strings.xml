@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string name="app_name">MS匡博</string>
+    <string name="ble_not_supported">BLE not supported</string>
+    <string name="bt_not_supported">Bluetooth not supported</string>
+    <string name="bt_not_enabled">Not enabled</string>
+    <string name="label_ibeacon">iBeacon</string>
+    <string name="label_not_ibeacon">Not iBeacon</string>
+    <string name="label_wifi">WiFi</string>
+    <string name="press_again">Press again</string>
+    <!-- Scan -->
+    <string name="action_clear">CLR</string>
+    <string name="action_scan">=====SCAN=====</string>
+    <string name="action_stop">STOP</string>
+    <string name="action_dump">DUMP</string>
+    <string name="action_license">LICENSE</string>
+    <!-- dialog -->
+    <string name="license_title">Android Bluetooth LICENSE</string>
+    <string name="license_body">Jack/BluetoothSignalDetector\nhttps://github.com/y93x08y05/AndriodBluetoothDataCollect</string>
+    <!-- dump -->
+    <string name="dump_failed">Dump Failed.</string>
+    <string name="dump_succeeded_suffix"> Dump Succeeded.</string>
+    <!-- sensor_label -->
+    <string name="attitude">Attitude:\n</string>
+    <string name="orientation">Orientation:\n</string>
+    <string name="azimuth"> Azimuth:</string>
+    <string name="pitch"> Pitch:</string>
+    <string name="roll"> Roll:</string>
+    <!-- activity_label -->
+    <string name="here">Here</string>
+    <string name="phone_attitude"> Attitude:</string>
+    <string name="point_num"> No.</string>
+    <string name="scan_repeat"> Scan repeat count:</string>
+    <string name="scan_time"> Scan time:</string>
+    <string name="scanned_ap"> AP:</string>
+    <string name="white_list">White List:</string>
+    <string name="white_list_bs"> White List(BS):</string>
+    <string name="white_list_wifi">White List(WiFi):</string>
+    <string name="white_list_wifi_value"></string>
+    <string name="white_list_bs_value"></string>
+    <!-- speech -->
+    <string name="speech_started">Started</string>
+    <string name="speech_stopped">Stopped</string>
+    <string name="speech_move">Please move</string>
+    <string name="speech_move_after_check">Please move after checking</string>
+</resources>
